@@ -1,0 +1,247 @@
+body,ul,li,a,h5{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+}
+.cnt1{
+    background-color: #5C7E10;
+    width: 105px;
+    height: 25px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.container{
+    width: 1460px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+#header{
+    background-color: #171A21;
+    height: 105px;
+}
+.box1{
+    width: 940px;
+    margin: 0 auto;
+}
+#header .logo_name{
+    float: left;
+    color: #C5C3C0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 105px;
+}
+#header img{
+    margin-top: 24px;
+}
+#header ul li{
+    float: left;
+}
+#header li a{
+    color: #B8B6B4;
+    font-size: 15px;
+    text-align: center;
+}
+#header li{
+    padding-right: 10px;
+}
+.left_box ul{
+    margin-left: 80px;
+    line-height: 105px;
+}
+.right_box ul{
+    margin-top: 6px;
+}
+.right_box a{
+    border-right: 1px solid #B8B6B4;
+    padding: 5px;
+}
+
+
+
+/*header*/
+/*.header-line {*/
+/*    width: 100%;*/
+/*    height: 4px;*/
+/*    background: #0dbfdd;*/
+/*}*/
+/*container*/
+#container{
+    background-color: #292E34;
+    height: 100vh;
+}
+/*content*/
+.content {
+    width: 28%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.content-logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 42%;
+}
+.content-title {
+    margin: 0 auto;
+    font-size: 2em;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.content-form {
+    width: 100%;
+    padding: 36px 0 20px;
+    text-align: center;
+    background-color: #292E34;
+}
+.content-form form div {
+    margin-bottom: 19px;
+}
+.content-form form .user,
+.content-form form .password {
+    width: 77%;
+    height: 40px;
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid  #cccbcb;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    background-color: #32353C;
+    color: #FFFFFF;
+}
+.content-form form input:focus {
+    outline: none;
+    -webkit-box-shadow: 0 0 5px #0dbfdd;
+    box-shadow: 0 0 5px #0dbfdd;
+}
+.content-form-signup {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid  #cccbcb;
+    border-radius: 7px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: #2C76DB;
+    cursor: pointer;
+}
+.content-form-signup:hover {
+    background: #0cb3d0;
+}
+.content-form-signup:focus {
+    outline: none;
+    border: 1px solid  #0cb3d0;
+}
+.content-login-description {
+    margin-top: 25px;
+    line-height: 1.63636364;
+    color: #747474;
+    font-size: .91666667rem;
+}
+.content-login-link {
+    font-size: 16px;
+    color: #0dbfdd;
+    text-decoration: none;
+}
+
+/*输入框无内容便提示*/
+#remind_1,
+#remind_2 {
+    width: 76%;
+    margin: 0 auto 2px;
+    text-align: left;
+    font-size: .2em;
+    color: #f00;
+}
+/*底部登录样式设置*/
+#bottom{
+    width: 100%;
+    height: 220px;
+    border: 1px solid black;
+    background-color: #000000;
+}
+.bottom{
+    width: 20%;
+    height: 220px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom>p{
+    font-size: 25px;
+    color: #67C1F5;
+    margin-top: 20px;
+}
+.bottom>h3{
+    font-size: 15px;
+    color: #8F98A0;
+}
+.bottom>h3>a{
+    color: #FFFFFF;
+}
+.bottom>.login_button{
+    background-color: #708E04;
+    width: 20%;
+    height: 15%;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*商店页脚底部样式设置*/
+footer{
+    width: 100%;
+    height: 260px;
+    /*border: 1px solid black;*/
+    background-color: #171A21;
+}
+#footer{
+    width: 50%;
+    height: 220px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer_left{
+    width: 80%;
+    /*border: 1px solid black;*/
+}
+.footer_right{
+    width: 20%;
+    /*border: 1px solid black;*/
+}
+.footer_left>img{
+    width: 15%;
+    height: 12%;
+}
+.footer_left>p{
+    color: #8F98A0;
+    display: flex;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.footer_left>ul{
+    display: flex;
+}
+.footer_left>ul>li{
+    padding: 0 25px;
+    border-right: 1px solid #363C44;
+}
+.footer_left>ul>li>a{
+    color: #C6D4DF;
+}
+.footer_left>ul>li>a:hover{
+    color: #FFFFFF;
+}

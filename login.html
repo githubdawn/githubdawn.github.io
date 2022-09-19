@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>登录</title>
+</head>
+<body>
+<!--    页顶标题header-->
+<div id="header">
+    <div class="container">
+        <div class="box1">
+            <img src="imgs/logo.png" alt="logo" class="left">
+            <span class="logo_name" class="left">Octopus</span>
+            <div class="left_box">
+                <ul class="left">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">客服</a></li>
+                </ul>
+            </div>
+            <div class="right_box">
+                <ul class="right">
+                    <li><a href="#" class="cnt1">安装 Octopus</a></li>
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="#">语言</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--登录界面-->
+<div id="container">
+    <div class="content">
+        <img class="content-logo" src="../Octopus平台/imgs/login.png" alt="logo">
+        <br/><br/><br/><br/><br/><br/><br/>
+        <h1 class="content-title">登录</h1>
+        <div class="content-form">
+            <form method="post" action="" onsubmit="return submitTest()">
+                <div id="change_margin_1">
+                    <h3 style="color: #FFFFFF">Octopus 账户名称</h3>
+                    <input class="user" type="text" name="user" placeholder="请输入用户名" onblur="oBlur_1()" onfocus="oFocus_1()">
+                </div>
+                <!-- input的value为空时弹出提醒 -->
+                <p id="remind_1"></p>
+                <div id="change_margin_2">
+                    <h3 style="color: #FFFFFF">密码</h3>
+                    <input class="password" type="password" name="password" placeholder="请输入密码" onblur="oBlur_2()" onfocus="oFocus_2()">
+                </div>
+                <!-- input的value为空时弹出提醒 -->
+                <p id="remind_2"></p>
+                <div id="change_margin_3">
+                    <input class="content-form-signup" type="submit" value="登录">
+                </div>
+            </form>
+        </div>
+        <div class="content-login-description">没有账户？</div>
+        <div><a class="content-login-link" href="#">注册</a></div>
+    </div>
+</div>
+<!--底部登录-->
+<div id="bottom">
+    <div class="bottom">
+        <p>正在寻找推荐？</p>
+        <h3 style="margin-bottom: 15px">登录以查看个性化推荐</h3>
+        <div class="login_button">
+            <a href="login.html" style="color: #FFFFFF">登录</a></div>
+        <h3>或者<a href="#">注册</a>并免费加入 Octopus</h3>
+    </div>
+</div>
+<!--商店页脚底部-->
+<footer>
+    <div id="footer">
+        <section class="footer_left">
+            <br/><hr/>
+            <img src="imgs/版权logo.png">
+            <p>©2021 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。
+                所有的价格均已包含增值税（如适用）。
+            </p>
+            <ul>
+                <li><a href="">隐私政策</a></li>
+                <li><a href="">法律信息</a></li>
+                <li><a href="">Octopus订户协议</a></li>
+                <li><a href="">退款</a></li>
+                <li><a href="">Cookie</a></li>
+            </ul>
+            <hr/>
+            <ul>
+                <li><a href="#">关于Valve</a></li>
+                <li><a href="#">工作机会</a></li>
+                <li><a href="#">Octopusworks</a></li>
+                <li><a href="#">Octopus 分销</a></li>
+                <li><a href="#">客服</a></li>
+                <li><a href="#">礼物卡</a></li>
+            </ul>
+        </section>
+        <section class="footer_right">
+            <br/><hr/>
+            <img src="imgs/logo_steam_footer.png" style="padding: 0 0 0 50%">
+        </section>
+    </div>
+</footer>
+</body>
+</html>
